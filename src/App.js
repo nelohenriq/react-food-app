@@ -4,6 +4,7 @@ import "./styles.css";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import HeadlineCards from "./components/HeadlineCards";
+import Food from "./components/Food";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <NavBar />
       <Hero />
       <HeadlineCards />
+      <Food />
     </div>
   );
 }
